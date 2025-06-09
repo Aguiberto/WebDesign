@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li.atual{
+    background-color: bisque;
+
+}
+
+.atual{
+    background-color: aqua;
+}
+
+li.atual a{
+    color: darkcyan;
+}
+table{
+    border-collapse: collapse; /*tira o espaçamento entre as células */
+    max-width: 70em; /*max-width é mais reponsível para a adequação do dispositível do usuário*/
+    margin: 0 auto; /*padrão para centralizar os valores no centro da cálula*/
+}
+td,th{
+    border: 1px solid black;
+    padding: 1em;
+}
+
+tr:nth-child(odd){ 
+    /*deixar o efeito de uma linha ficar colorida e outra não*/
+    /*odd = "impar"/ pode ser usado numero inteiro para usar uma linha específica */
+    background-color: aliceblue;
+}
