@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: ;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+
+}
+
+section img{
+    margin-bottom: 1em;
+    border-bottom: 1px solid burlywood;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 2em;
+}
+
+menu li a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(imagens/trigo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.contet{
+    flex: 1;
+}
+footer{
+
+}
+footer h3{
+    border-bottom: 1px solid burlywood;
+    padding: 5px;
+    margin-bottom: 2em;
+    font-size: 1em;
+}
