@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: ;
+    margin:0;
+    padding:0;
     text-align: center;
 }
 
@@ -12,31 +12,37 @@ header h1 {
 section img{
     margin-bottom: 1em;
     border-bottom: 1px solid burlywood;
+    
 }
 
 header nav ul li{
-    list-style: none;
     display: inline-block;
     padding: 2em;
 }
 
-menu li a:hover{
-    color: black;
+header nav ul li a{
     text-decoration: none;
+    color: black;
 }
 
 body{
     background-image: url(imagens/trigo.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
 
+body main ul{
+    text-align: center;
+    border-bottom: 3em;
 }
-.contet{
-    flex: 1;
-}
-footer{
 
+body main ul li{
+    display: inline-block;
+    margin: 1px;
+    padding-left: 4em;
+    padding-right: 4em;
 }
+
 footer h3{
     border-bottom: 1px solid burlywood;
     padding: 5px;
