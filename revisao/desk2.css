@@ -19,6 +19,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 3em;
+    font-size: 1em;
 }
 
 section.text{
@@ -28,13 +29,13 @@ section.text{
 }
 section.icones ul li {
     display: inline-block;
-    margin: 5em;
- 
+    margin: 2em;
     padding-left: 3em;
     padding-right: 3em;
+    font-size: small;
 
 }
 
 footer{
-    border-top: 1px solid rgb(233, 100, 11);
+    border-top: 1px solid #e9640b;
 }
