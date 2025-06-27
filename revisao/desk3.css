@@ -29,6 +29,9 @@ section.texto{
     font-size: 120%;
 }
 
+section.imagens ul{
+    text-align: center;
+}
 section.imagens ul li{
     display: inline-block;
     padding: 1em;
@@ -36,4 +39,11 @@ section.imagens ul li{
 
 footer{
     border-top: 1px solid saddlebrown;
+    margin: 2em;
+    padding:2em ;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
 }

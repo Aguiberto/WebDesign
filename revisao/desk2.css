@@ -38,4 +38,11 @@ section.icones ul li {
 
 footer{
     border-top: 1px solid #e9640b;
+    margin: 2em;
+    padding:2em ;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
 }
