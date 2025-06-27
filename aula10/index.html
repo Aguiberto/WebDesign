@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SÃO PEDRO - IFRN CNAT</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>SÃO PEDRO DO IFRN CAMPUS NATAL CENTRAL</h1>
+    </header>
+    <main>
+        <h2>INSCRIÇÃO PAR AO EVENTO</h2>
+        <form action="enviar.html">
+            <label for="nome">Nome: </label>
+            <input type="text" name="" id="nome"><br>
+            <label for="email">E-mail: </label>
+            <input type="email" id="email"><br>
+
+            <label for="cidade">cidade</label>    
+            <input type="text" id="cidade" list="cidades">
+            <datalist id="cidades">
+                <option value="Natal">Natal</option>
+                <option value="Parnamirim">Parnamirim</option>
+            </datalist><br>
+            <!-- DATALIST: DEIXA PERMITE QUE O USUÁRIO ESCOLHA UMA OPÇÃO QUE NÃO ESTÁ NA LISTA  -->
+            <!-- FAZ UM FILTRO DAS OPÇOES CONFORME A ESCRITA -->
+
+            <label for="curso">Curso: </label>
+            <select name="curso" id="curso">
+            <!--SELECT: O USUÁRIO É OBRIGATO A ESCOLHER UMA OPÇÃO DA LISTA  -->
+            <!-- COMBOBOX: CRIA UMA LISTA DE OPÇÕES QUE É SELECIONÁVEL PARA O USUÁRIO -->
+            <!-- comando mutiple permite selesionar várias opções usnado ctrl -->
+            <!-- atributo SIZE permite deixar aberto -->
+                <option value="tads" selected>TADS</option>
+                <!-- SELECTED: OPÇÃO JA FICA SELECIONADA -->
+                <option value="gestao">Gestão Pública</option>
+                <option value="redes">Redes de Computadores</option>
+            </select><br>
+           
+            <input type="submit" value="enviar">
+        </form>
+
+        <h2>ENQUETE</h2> 
+
+        <form action="enviar.html">
+            <p>Sobre as músicas.</p>
+            <label><input type="radio" name="musicas" value="tudo">Toca de tudo</label><br> <!--br para fazer a quebra de linha e deixar um item baixo do outro-->
+            <label><input type="radio" name="musicas" value="soforro">Só forró</label><br>
+            <label><input type="radio" name="musicas" value="dj">DJ</label><br>
+            <!-- input type radio : deixa uma opção para seleção com uma bolinha -->
+            <!-- para o TIPY RADIO é preciso usar o atributo NAME -->
+            <!-- permite selecionar apenas uma opção -->
+            <!-- NAME cria um grupo que permite a seleção de apenas um item do grupo no caso : "musicas" -->
+            <input type="submit" value="Votar">
+        </form>
+
+        <form action="enviar.html">
+            <h2>Contato</h2>
+            <label for="mensagem">Mensagem: </label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <!-- cols = numero de caracteres na horizontal "colunas" -->
+            <!-- rows = linhas -->
+            <!-- Cria uma caixa de texto para o usuário escrever uma mensagem qualquer -->
+
+
+            <input type="submit" value="Submeter">
+        </form>
+
+        <form action="index.html">
+            <h2>Comidas Preferidas</h2>
+            <label><input type="checkbox" name="comida" value="pamonha" checked>Pamonha</label><br>
+            <label><input type="checkbox" name="comida" value="canjica" disabled>Canjica</label><br>
+            <label><input type="checkbox" name="comida" value="munguza">Munguza</label><br>
+            <label><input type="checkbox" name="comida" value="arrozdoce">Arroz Doce</label><br>
+            <label><input type="checkbox" name="comida" value="milho">Milho</label><br>
+            <!-- Cria uma lista onde a pessoa pode escolher várias opções -->
+            <!-- atributo CHEKED : deixa uma opção ja marcada -->
+            <!-- disable : deixa uma das opçãoes indiponível -->
+        </form>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por IFRN</p>
+    </footer>
+
+</body>
+</html>
