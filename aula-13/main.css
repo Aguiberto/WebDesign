@@ -1,14 +1,12 @@
 *{
-    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 header{
     margin: 0 auto;
-    border: 1px solid black;
     background-image:linear-gradient(to right, #72cfed, #186c86);
     /*Gradiente de cores na horizontal*/
     margin-bottom: 2em;
-}
-header.cubo{
     padding: 1em;
 }
 
@@ -16,14 +14,17 @@ section{
     display: flex;
     box-sizing: ;
     gap: 1em;
+    justify-content: center;
+    padding: 2em;
 }
 
 div{
     display: flex;
     border: 1px solid black;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 2px 2px 2px black;
     flex-direction: column;
-    padding: 1em;
+    padding: 2em;
+    
 
 }
 span{
