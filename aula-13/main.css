@@ -12,7 +12,7 @@ header{
 
 section{
     display: flex;
-    box-sizing: ;
+    box-sizing:border-box;
     gap: 1em;
     justify-content: center;
     padding: 2em;
@@ -24,7 +24,7 @@ div{
     box-shadow: 2px 2px 2px black;
     flex-direction: column;
     padding: 2em;
-    
+
 
 }
 span{
