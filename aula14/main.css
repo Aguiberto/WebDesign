@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+header{
+    text-align: center;
+}
+main{
+    margin: 0 auto;
+    max-width: 70rem; /*rem*/
+
+}
+section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /*ajusta o conteúde dentro do espaço de forma igualitária e perfeita */
+    row-gap: 2rem; /* Só funciona quando a o atrabiuto DISPLAY FLEX*/
+}
+
+section h2{
+    background-color: cadetblue;
+    flex-basis: 100%; /*lagura de um iten do container flex*/
+}
+
+section div{
+    flex-basis: 22%;
+    border: 1px solid rgb(240, 232, 232);
+    border-radius: 7px; /*arredondamento das bordas*/
+    box-shadow: 0 0 10px rgb(228, 223, 223);
+    padding: 15px;
+    text-align: center;
+
+}
+
