@@ -1,0 +1,164 @@
+<style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .partes{
+            min-width: 0;
+        }
+        header{
+            border: 1px solid grey;
+            padding: 1rem;
+            background: linear-gradient(to left,#7292A6, #224459);
+            color: white;
+            display: block;
+            width: 100%;
+        }
+        .container{
+            display: grid;
+            gap: 0.5rem;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: repeat(3,1fr);
+            min-width: 0;
+        }
+        .fotos{
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            filter: grayscale(100%); 
+            /*filtro de cores para as imagens*/
+        }
+        .fotos p{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.521);
+            padding: 1rem;
+            width: 225px;
+            text-align: center;
+        }
+        div#menu{
+            box-sizing: border-box;
+            grid-column: 1;
+            grid-row:span 3;
+            background-color: #01568f5e;
+            display: flex;
+            align-items: center;
+        }
+        div#menu nav ul li a{
+            text-decoration: none;
+            color: rgba(13, 68, 131, 0.753);
+            font-size: 20px;
+        }
+        div#menu ul li{
+            padding-bottom: 3rem;
+            list-style-type: none;
+
+        }
+        div#texto{
+            grid-column: 2;
+            grid-row: 1;
+            background-color: rgb(243, 240, 243);
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        div#conteudo{
+            grid-column: 2;
+            grid-row: 2;
+            background-color:rgb(243, 240, 243);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div#conteudo ul li{
+            padding-bottom: 1rem;
+        }
+        div#palestrante0{
+            grid-column: 2;
+            grid-row: 3;
+            background-image: url(palestrantes/larissa.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        div#programação{
+            grid-column: 3 /5;
+            grid-row: 1;
+            background-color: rgb(243, 240, 243);
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 2rem;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        .celula{
+            border: 1px solid rgb(204, 217, 230);
+            text-align: center;
+            padding: 0rem 3rem ;
+            height: 2rem;
+        }
+        div#inscrição{
+            grid-column: 3;
+            grid-row:  2 / 4;
+            background-color: rgb(243, 240, 243);
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        div#tabela form{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        div#tabela form input{
+            padding-bottom: 0.6rem;
+        }
+        div#tabela form input[type="button"]{
+            color: rgb(139, 137, 137);
+            background-color: black;
+            width:  8rem;
+            padding-top: 0.5rem;
+        }
+        div#botao{
+            display: flex;
+            justify-content: center;
+        }
+        div#palestrante1{
+            grid-column: 4;
+            grid-row: 2;
+            background-image: url(palestrantes/natalia.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        div#palestrante2{
+            grid-column: 5;
+            grid-row: 1;
+            background-image: url(palestrantes/amanda.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        div#palestrante3{
+            grid-column: 5;
+            grid-row: 2;
+            background-image: url(palestrantes/henrique.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        div#organizaçao{
+            grid-row: 3;
+            grid-column: 4 / 6;
+            background-color: rgb(243, 240, 243);
+        }
+        div#organizaçao h2,p,ul, ul li{
+            padding: 0.3rem;
+            padding-left: 2rem;
+        }
+        footer{
+            border: 1px solid gray;
+            padding: 3rem;
+            text-align: center;
+            background-color: #224459;
+            color: white;
+        }
