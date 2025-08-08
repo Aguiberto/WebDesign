@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANOS</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: purple;
+            
+        }
+        body main{
+            display: flex;
+            gap: 3rem;
+            justify-self: center;
+            align-items: center;
+            padding: 12rem;
+
+        }
+        .caixa{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: white;
+            padding: 2rem;
+            width: 15rem;
+            height: 25rem;
+            border-radius: 20px;
+            box-shadow: #711c7c;
+        }
+        .caixamaior{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: white;
+            padding: 2rem;
+            width: 20rem;
+            height: 35rem;
+            border-radius: 20px;
+        }
+        .fidelidade{
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            width: 15rem;
+            font-size: 1rem;
+        }
+        .preco{
+            background-color: rgb(250, 242, 242);
+            padding: 3rem 4rem;
+            border-radius: 3px;
+
+        }
+        .preco p{
+            color: #711c7c;
+            font-size: 2.5rem;
+            font-style: bold;
+        }
+        .baixo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            padding-top: 0.5rem;
+            text-align: center;
+            padding-top: 2rem;
+        }
+        .baixo button{
+            background-color: #7F329E;
+            padding: 0.3rem 0.7rem;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <section class="caixa">
+            <div class="fidelidade">
+                <h3>PLANO MENSAL</h3>
+            </div>
+
+            <div class="preco">
+                <p>29,90</p>
+            </div>
+
+            <div class="baixo">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <button type="submit">COMPRAR</button>
+            </div>
+        </section>
+        <section class="caixamaior">
+            <div class="fidelidade">
+                <h3>PLANO ANUAL</h3>
+            </div>
+
+            <div class="preco">
+                <p>29,90</p>
+            </div>
+
+            <div class="baixo">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <button type="submit">COMPRAR</button>
+            </div>
+        </section>
+        <section class="caixa">
+            <div class="fidelidade">
+                <h3>PLANO SEMENSTRAL</h3>
+            </div>
+
+            <div class="preco">
+                <p>29,90</p>
+            </div>
+
+            <div class="baixo">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <button type="submit">COMPRAR</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
